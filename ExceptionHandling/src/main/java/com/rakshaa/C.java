@@ -1,9 +1,9 @@
 package com.rakshaa;
 //ClassNotFoundException.........
-class Test {
+public class C {
     public static void main(String[] args) {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.rakshaa.Driver");
         }
         catch (Exception e) {
             System.out.println(e);
